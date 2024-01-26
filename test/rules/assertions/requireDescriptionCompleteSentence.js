@@ -1577,5 +1577,61 @@ export default {
       /** @param options {@link RequestOptions} specifying path parameters and query parameters. */
       `,
     },
+    {
+      code: `
+        /**
+         * A single line for testing.
+         *
+         * \`\`\`js
+         * const aCodeExample = true;
+         * \`\`\`
+         */
+        const code = (parameter) => 123;
+      `,
+    },
+    {
+      code: `
+        /**
+         * A single line for testing.
+         *
+         * \`\`\`js
+         * const aCodeExample = true;
+         * \`\`\`
+         *
+         * @param parameter
+         */
+        const code = (parameter) => 123;
+      `,
+    },
+    {
+      code: `
+        /**
+         * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel
+         * ullamcorper felis. Sed aliquet pulvinar felis sed interdum. Sed
+         * tincidunt lobortis elit et malesuada.
+         *
+         * \`\`\`js
+         * const aCodeExample = true;
+         * \`\`\`
+         *
+         * @param parameter
+         */
+        const code = (parameter) => 123;
+      `,
+    },
+    {
+      code: `
+        /**
+         * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel
+         * ullamcorper felis. Sed aliquet pulvinar felis sed interdum. Sed
+         * tincidunt lobortis elit et malesuada.
+         *
+         * \`\`\`js
+         * const aCodeExample = true;
+         * \`\`\`
+         */
+        const code = () => 123;
+      `,
+    },
   ],
 };
